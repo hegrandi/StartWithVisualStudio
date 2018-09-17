@@ -8,6 +8,6 @@
         Title="MainWindow" Height="450" Width="800">
 
     <Grid x:Name="Root_Grid">
-        <syncfusion:SfDataGrid Margin="30" x:Name="dataGrid" Foreground="Green" FontWeight="Bold" ItemsSource="{Binding Orders}" />
+        <syncfusion:SfDataGrid Margin="30" Background="Turquoise" x:Name="dataGrid" Foreground="Green" FontWeight="SemiBold" ItemsSource="{Binding Orders}" />
     </Grid>
 </Window>
