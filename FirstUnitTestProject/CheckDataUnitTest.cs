@@ -5,10 +5,10 @@ using StartWithVisualStudio.ViewModels;
 namespace FirstUnitTestProject
 {
     [TestClass]
-    public class UnitTest
+    public class CheckDataUnitTest
     {
         [TestMethod]
-        public void TestMethod()
+        public void CheckDataTestMethod()
         {
             var OrderVM = new OrderViewModel();
             //OrderVM.Orders.Clear();
